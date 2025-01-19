@@ -93,6 +93,12 @@ func (kp *Keypair) XonlyPubkey(context *C.secp256k1_context) *XonlyPubkey {
 	return nil
 }
 
+func NewXonlyPubkey() *XonlyPubkey {
+	return &XonlyPubkey{
+		Data: [64]byte{},
+	}
+}
+
 func (xp *XonlyPubkey) XonlyPubkeyParse(context *C.secp256k1_context, pk [32]byte) bool {
 	var xonly C.secp256k1_xonly_pubkey
 
