@@ -14,18 +14,9 @@ go get github.com/kehiy/go-secp256k1
 
 you can check [examples](./example/) and [benchmarks](./benchmark/).
 
-## todo
+# contributions
 
-todo list:
-
-- [ ] removing the usage of C.secp356k1_context from go api.
-- [ ] supporting key generation.(?)
-- [ ] supporting sign32/taghash(?) method.
-- [ ] writing tests.
-- [ ] writing examples.
-- [ ] writing benchmarks.
-- [ ] adding godoc documents.
-- [ ] adding security check linter and workflows.
+any contributions are welcomed. you can find issues [here](https://github.com/kehiy/go-secp256k1/issues).
 
 ## license and contribution
 
